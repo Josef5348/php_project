@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  background-color: #e0e0e0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  color: #0066cc;
+  text-align: center;
+  text-shadow: 1px 1px 0px #fff;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff6600;
+}
+
+button {
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  background-color: #0066cc;
+  color: #fff;
+  border: 1px solid #003399;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003399;
+}
+
+/* Form Styles */
+form {
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #0066cc;
+  background: linear-gradient(to bottom, #ffffff, #cce0ff);
+  max-width: 500px;
+  text-align: center;
+}
+
+input[type="file"],
+textarea {
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #0066cc;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 80px;
+}
+
+/* Photo Display */
+div {
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #0066cc;
+  background: linear-gradient(to bottom, #ffffff, #cce0ff);
+  max-width: 600px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #333;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #ff6600;
+}
+
+p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Comment Section */
+textarea[name="comment"] {
+  width: 90%;
+  height: 50px;
+}
+
+form textarea {
+  font-family: Arial, sans-serif;
+}
+
+/* Footer Style */
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin: 20px;
+  color: #0066cc;
+}
+/* Highlight First Place Photo */
+img[alt="First Place"] {
+  border: 5px solid gold;
+  max-width: 400px;
+  margin: 10px auto;
+  display: block;
+}
